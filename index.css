@@ -1,0 +1,33 @@
+#thepole{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 50ch;
+    height: 50ch;
+    background: grey;
+}
+.start {
+    margin-left: 475px;
+
+}
+h1 ,footer{
+    text-align: center;
+    color: darksalmon;
+    line-height: 1px;
+}
+.rules{
+    text-align: center;
+    margin-left: 100px;
+    color: #c381a4;
+    font-style:italic;
+    font-family: Tahoma, Geneva, sans-serif;
+
+}
+
+body{
+    background-image: url(fon3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
